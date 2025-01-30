@@ -6,58 +6,121 @@
     <meta name="description" content="Dante Barton's Developer Portfolio">
     <title>Dante Barton - Developer Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya:wght@400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@400;700&display=swap" rel="stylesheet"/>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="banner-container">
-            <h1>Welcome to My Portfolio</h1>
-            <nav>
+    
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#">Dante Dev Studio</a>
+                </div>
+                
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    
+                </nav>
+            </div>
+        </header>
+
+            <section id="home">
+                <div class="container">
+                    <div class="intro-container">
+                        <div class="text-container">
+                            <h1>Hey! I'm Danté Barton</h1>
+                            <p>
+                                <b>Software Engineer</b> based in Boston, MA with experience in Front End Development 
+                                (Android, iOS, and web development). I'm an avid explorer, learner and love the
+                                opportunity to take on any challenge that comes my way!
+                            </p>
+                        </div>
+                        
+                        <div class="image-container">
+                            <div class="slides-fade">
+                                <img src="images/LinkedIn photo.jpg" alt="Photo of Dante Barton">
+                                <div class="text">Professional headshot</div>
+                            </div>
+    
+                            <div class="slides-fade">
+                                <img src="images/Dante and Jongsoo.jpg" alt="Dante Barton and Team Lead Jongsoo Ha working on a hackathon">
+                                <div class="text">Dante Barton and Team Lead Jongsoo Ha working on a hackathon</div>
+                            </div>
+    
+                            <div class="slides-fade">
+                                <img src="images/Dante_Barton_CC.jpg" alt="Dante Barton attending a university event">
+                                <div class="text">On Campus wellness event</div>
+                            </div>
+    
+                            <div class="slides-fade">
+                                <img src="images/CC_commencement.jpg" alt="2024 CC team at UMB Commencement">
+                                <div class="text">2024 CC team at UMB Commencement</div>
+                            </div>
+    
+                            <div style="text-align: center">
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="button-container">
+                        <button class="contact-button">Get in touch</button>
+                        <a href="#projects">
+                            <button class="projects-button"><span>See my work </span></button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section id="skills">
+                <h2>Skills</h2>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>Programming Languages: Java, Python, JavaScript</li>
+                    <li>Frameworks: React, Flask</li>
+                    <li>Tools: Git, Docker, VS Code</li>
                 </ul>
-            </nav>
+            </section>
+        
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3><a href="https://github.com/dantebarton/aiHackathonUI">aiHackathonUI</a></h3>
+                    <p>A dynamic web application for watermarking system visualization using Huggingface Transformers.</p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://github.com/dantebarton">Other Projects</a></h3>
+                    <p>Explore more of my work on GitHub.</p>
+                </div>
+            </section>
+        
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:dantebartona.j@gmail.com">dantebartona.j@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/dantebarton">linkedin.com/in/dantebarton</a></p>
+            </section>
+        
+            <footer>
+                <p>&copy; 2025 Dante Barton. All Rights Reserved.</p>
+            </footer>
         </div>
-        <p>Hi, I'm Dante Barton, a passionate developer striving to make an impact in the tech world.</p>
-    </header>
+    </div>
+    
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a recent Computer Science graduate with experience in building dynamic and user-friendly applications. My passion lies in software engineering and creating innovative solutions.</p>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Java, Python, JavaScript</li>
-            <li>Frameworks: React, Flask</li>
-            <li>Tools: Git, Docker, VS Code</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3><a href="https://github.com/dantebarton/aiHackathonUI">aiHackathonUI</a></h3>
-            <p>A dynamic web application for watermarking system visualization using Huggingface Transformers.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://github.com/dantebarton">Other Projects</a></h3>
-            <p>Explore more of my work on GitHub.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:dantebartona.j@gmail.com">dantebartona.j@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/dantebarton">linkedin.com/in/dantebarton</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Dante Barton. All Rights Reserved.</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
