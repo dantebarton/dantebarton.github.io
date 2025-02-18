@@ -38,7 +38,7 @@
                         <div class="text-container">
                             <h1>Hey! I'm Danté Barton</h1>
                             <p>
-                                <b>Software Engineer</b> based in Boston, MA with experience in Front End Development 
+                                <b>Software Engineer</b> with experience in Front End Development 
                                 (Android, iOS, and web development). I'm an avid explorer, learner and love the
                                 opportunity to take on any challenge that comes my way!
                             </p>
@@ -47,10 +47,10 @@
                         <div class="image-container">
                             <div class="slides-fade">
                                 <img src="images/LinkedIn photo.jpg" alt="Photo of Dante Barton">
-                                <div class="text">Professional headshot</div>
+                                <div class="text">Visit to the great lakes</div>
                             </div>
     
-                            <div class="slides-fade">
+                            <!-- <div class="slides-fade">
                                 <img src="images/Dante and Jongsoo.jpg" alt="Dante Barton and Team Lead Jongsoo Ha working on a hackathon">
                                 <div class="text">Dante Barton and Team Lead Jongsoo Ha working on a hackathon</div>
                             </div>
@@ -58,7 +58,7 @@
                             <div class="slides-fade">
                                 <img src="images/Dante_Barton_CC.jpg" alt="Dante Barton attending a university event">
                                 <div class="text">On Campus wellness event</div>
-                            </div>
+                            </div> -->
     
                             <div class="slides-fade">
                                 <img src="images/CC_commencement.jpg" alt="2024 CC team at UMB Commencement">
@@ -67,8 +67,8 @@
     
                             <div style="text-align: center">
                                 <span class="dot"></span> 
-                                <span class="dot"></span> 
-                                <span class="dot"></span> 
+                                <!-- <span class="dot"></span> 
+                                <span class="dot"></span>  -->
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -76,7 +76,9 @@
                     <br>
 
                     <div class="button-container">
-                        <button class="contact-button">Get in touch</button>
+                        <a href="#contact">
+                            <button class="contact-button"><span>Get in touch</span></button>
+                        </a>
                         <a href="#projects">
                             <button class="projects-button"><span>See my work </span></button>
                         </a>
@@ -86,26 +88,75 @@
                 </div>
             </section>
 
+            <!-- TODO: Take pictures from my projects to use as placeholders and turn cards into links back to github project repos -->
             <section id="projects">
                 <div class="projects-container">
                     <div class="projects-intro-container">
                         <div class="projects-text-container">
                             <h1>Projects</h1>
-                            <p>
-                                You can check out below a showcase of projects and my current passions!
-                            </p>
+                            <p>You can check out below a showcase of projects and my current passions! You can checkout my full repo <a href="https://github.com/dantebarton">here>></a></p>
                         </div>
                     </div>
                     <div class="card-container">
                         <div class="card">
-                            <img src="images/LinkedIn photo.jpg">
+                            <img src="images/ai-watermark.jpg">
                             <div class="card-content">
-                                <h3>Card one</h3>
-                                <p>Some description about the card</p>
-                                <a href="">Read more</a>
+                                <h3>AI Watermark detection</h3>
+                                <p>A dynamic web application for watermarking system visualization using Huggingface Transformers.</p>
+                                <a href="https://github.com/dantebarton/aiHackathonUI">Github Repo</a>
                             </div>
                         </div>
                         <div class="card">
+                            <img src="images/chibi-placeholder.jpg">
+                            <div class="card-content">
+                                <h3>Flutter Movie info app</h3>
+                                <p>Check back later for an update!</p>
+                                
+                            </div>
+                        </div>
+                        <a href="https://github.com/dantebarton/gen-ai-bootcamp-2025">
+                            <div class="card">
+                                <img src="images/chibi-placeholder.jpg">
+                                <div class="card-content">
+                                    <h3>Gen AI bootcamp 2025</h3>
+                                    <p>This is a current ongoing project with the end goal of implementing a learning portal
+                                        to augment the learning experience for students between instrucor-led classes.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="blogs">
+                <div class="blogs-container">
+                    <div class="blogs-intro-container">
+                        <div class="blogs-text-container">
+                            <h1>Blogs</h1>
+                            <p>Catch-up on the latest and greatest of my posts! Here I capture moments, experiences, and trends I find interesting! More cool stuff <a href="https://dante-barton.blogspot.com/">here!</a></p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <a href="https://dante-barton.blogspot.com/2023/08/self-introduction-introducing-dante.html" class="flip-card-link">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="images/fireworks2.gif" alt="Avatar" style="width:300px;height:200px;">
+                                        <div class="card-content">
+                                            <h3>自己紹介(じこしょうかい) - Self Introduction</h3>
+                                         </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h3>自己紹介(じこしょうかい) - Self Introduction</h3>
+                                        <p>We are all like fireworks: We climb, we shine and always go our separate ways and become further apart. 
+                                            But even when that time comes, let's not disappear like a firework and continue to shine... forever.</p>
+                                    </div>
+                                </div>
+                            </div>        
+                        </a>    
+                        
+                        <!-- <div class="card">
                             <img src="images/LinkedIn photo.jpg">
                             <div class="card-content">
                                 <h3>Card two</h3>
@@ -120,33 +171,17 @@
                                 <p>Some description about the card</p>
                                 <a href="">Read more</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-
-                <div class="project">
-                    <h3><a href="https://github.com/dantebarton/aiHackathonUI">aiHackathonUI</a></h3>
-                    <p>A dynamic web application for watermarking system visualization using Huggingface Transformers.</p>
-                </div>
-                <div class="project">
-                    <h3><a href="https://github.com/dantebarton">Other Projects</a></h3>
-                    <p>Explore more of my work on GitHub.</p>
-                </div>
-            </section>
-        
-            <section id="blogs">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Programming Languages: Java, Python, JavaScript</li>
-                    <li>Frameworks: React, Flask</li>
-                    <li>Tools: Git, Docker, VS Code</li>
-                </ul>
             </section>
         
             
         
             <section id="contact">
                 <h2>Contact</h2>
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3J61pfrNcjgYLJBWzCz8fo0YEqjUEQBU_0PDe7rm1f8ugkQ/viewform?embedded=true" width="640" height="876" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 <p>Email: <a href="mailto:dantebartona.j@gmail.com">dantebartona.j@gmail.com</a></p>
                 <p>LinkedIn: <a href="https://linkedin.com/in/dantebarton">linkedin.com/in/dantebarton</a></p>
             </section>
